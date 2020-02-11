@@ -13,7 +13,7 @@ Code and data for the manuscript "Stochastic synchronization of dynamics on the 
 
 If you use our code in your research, please cite us as follows:
 
-J.C. Pang, L.L. Gollo, and J.A. Roberts, Stochastic synchronization of dynamics on the human connectome, bioRxiv (2020) (DOI: xxx)
+J.C. Pang, L.L. Gollo, and J.A. Roberts, Stochastic synchronization of dynamics on the human connectome, bioRxiv (2020) (DOI: https://doi.org/10.1101/2020.02.09.940817)
 
 # Further details
 
