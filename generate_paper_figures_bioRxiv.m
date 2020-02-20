@@ -6,6 +6,7 @@
 % (DOI: https://doi.org/10.1101/2020.02.09.940817)
 
 %% load relevant files and simulation parameters
+% IT IS IMPORTANT THAT YOU RUN THIS SECTION FIRST
 
 load('data/initial_conditions/initial_theta.mat', 'initial_theta')
 load('data/initial_conditions/initial_frequency_gaussian.mat', 'w_gaussian')
@@ -31,7 +32,7 @@ end
 figure_issave = 0;                                  % shall we save generated figure?
 figure_isclose = 0;                                 % shall we close generated figure?
 
-%% FIGURE 1
+%% FIGURE 1: WHOLE-BRAIN NETWORK MODEL AND DYNAMICS
 
 figure_filename = 'Figure1';                         
 fontsize_axis = 10;
@@ -196,7 +197,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 2
+%% FIGURE 2: NODE PHASES AND NETWORK COHERENCE FOR VARIOUS NOISE STRENGTHS
 
 figure_filename = 'Figure2';                         
 fontsize_axis = 12;
@@ -287,7 +288,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 3
+%% FIGURE 3: STOCHASTIC SYNCHRONIZATION
 
 figure_filename = 'Figure3';                         
 fontsize_axis = 12;
@@ -348,7 +349,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 4
+%% FIGURE 4: ROLE OF DISTRIBUTION OF NATURAL FREQUENCIES ON SYNCHRONIZATION DYNAMICS
 
 figure_filename = 'Figure4';                         
 fontsize_axis = 10;
@@ -468,7 +469,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 5
+%% FIGURE 5: ROLE OF NETWORK'S TOPOLOGY ON SYNCHRONIZATION DYNAMICS
 
 figure_filename = 'Figure5';                         
 fontsize_axis = 10;
@@ -607,7 +608,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 6
+%% FIGURE 6: SYNCHRONIZATION AND PHASE-CLUSTERING STATISTICS
 
 figure_filename = 'Figure6';                         
 fontsize_axis = 10;
@@ -855,7 +856,7 @@ if figure_isclose
     clear fig
 end
 
-%% FIGURE 7
+%% FIGURE 7: FUNCTIONAL CONNECTIVITY OF SUBNETWORKS
 
 figure_filename = 'Figure7';                         
 fontsize_axis = 10;
@@ -1019,7 +1020,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SUPPLEMENTARY FIGURES
-%% SUPPLEMENTARY FIGURE 1
+%% SUPPLEMENTARY FIGURE 1: NETWORK COHERENCE AND SPATIOTEMPORAL DYNAMICS FOR VARIOUS COUPLING STRENGTHS
 
 figure_filename = 'Supp_Figure1';                         
 fontsize_axis = 10;
@@ -1120,7 +1121,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 2
+%% SUPPLEMENTARY FIGURE 2: TIME EVOLUTION OF DISTRIBUTION OF PHASE DIFFERENCES
 
 figure_filename = 'Supp_Figure2';                         
 fontsize_axis = 10;
@@ -1203,7 +1204,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 3
+%% SUPPLEMENTARY FIGURE 3: SYNCHRONIZATION FOR VARIOUS COUPLING AND NOISE STRENGTHS
 
 figure_filename = 'Supp_Figure3';                         
 fontsize_axis = 10;
@@ -1384,7 +1385,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 4
+%% SUPPLEMENTARY FIGURE 4: REPLICATION OF RESULTS ON HCP CONNECTOMES
 
 figure_filename = 'Supp_Figure4';                         
 fontsize_axis = 10;
@@ -1557,7 +1558,7 @@ for subj_num = 1:length(subj_list)
     end
 end
 
-%% SUPPLEMENTARY FIGURE 7
+%% SUPPLEMENTARY FIGURE 7: CALIBRATED NETWORK DYNAMICS FOR DIFFERENT FREQUENCY DISTRIBUTIONS
 
 figure_filename = 'Supp_Figure7';                         
 fontsize_axis = 10;
@@ -1653,7 +1654,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 8
+%% SUPPLEMENTARY FIGURE 8: CALIBRATED NETWORK DYNAMICS FOR DIFFERENT NETWORK TOPOLOGIES
 
 figure_filename = 'Supp_Figure8';                         
 fontsize_axis = 10;
@@ -1756,7 +1757,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 9
+%% SUPPLEMENTARY FIGURE 9: SPATIAL MAP OF THE CONNECTOME'S FUNCTIONAL SUBNETWORKS
 
 figure_filename = 'Supp_Figure9';                         
 fontsize_label = 12;
@@ -1801,7 +1802,7 @@ if figure_isclose
     clear fig
 end
 
-%% SUPPLEMENTARY FIGURE 10
+%% SUPPLEMENTARY FIGURE 10: OPTIMIZATION OF DBSCAN CLUSTERING ALGORITHM
 
 figure_filename = 'Supp_Figure10';                         
 fontsize_axis_big = 10;
@@ -1864,7 +1865,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SUPPLEMENTARY MOVIES
-%% SUPPLEMENTARY MOVIES 1 TO 3
+%% SUPPLEMENTARY MOVIES 1 TO 3: NETWORK COHERENCE AND NODE PHASES
 
 fontsize_axis = 10;
 fontsize_label = 12;
