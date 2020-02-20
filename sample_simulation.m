@@ -1,9 +1,5 @@
 % sample_simulation.m
 % sample code to simulate Kuramoto model on a connectome with chosen frequency distribution
-%
-% If you use part or all of this code in your research, please cite us as follows:
-% J.C. Pang, L.L. Gollo, and J.A. Roberts, Stochastic synchronization of dynamics on the human connectome, bioRxiv (2020) 
-% (DOI: https://doi.org/10.1101/2020.02.09.940817)
 
 %% load default parameters
 
@@ -20,10 +16,10 @@ connectome = load('data/normW.mat', 'normW');       % connectome used in the pap
 param.A = connectome.normW;                         % defining connectivity parameter
 param.N = size(param.A, 1);                         % defining number of nodes parameter
 
-distribution = 'hierarchical';                      % frequency distribution used in the paper
+distribution_type = 'hierarchical';                 % frequency distribution used in the paper
                                                     % see utils.generate_frequencyDist.m for other types of frequency distribution
 hierarchical_exponent = 2;                                         
-param.w = utils.generate_frequencyDist(distribution, ...
+param.w = utils.generate_frequencyDist(distribution_type, ...
                 param.N, param.wmin, param.wmax, param.A,...
                 hierarchical_exponent);             % defining frequency parameter
 
