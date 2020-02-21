@@ -13,7 +13,7 @@ Connectivity matrices of various network topologies
 Functional networks
 
 ### paper_simulations folder
-All the simulated data used in the paper
+All the simulated data used in the paper. Note that matrices corresponding to node phase dynamics have transients removed (converted to NaN) to reduce space.
 
 ### others
 Connectivity matrices, node locations, between-node distances, pre-calculated network modules
