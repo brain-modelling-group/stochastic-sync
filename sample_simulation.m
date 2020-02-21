@@ -73,11 +73,10 @@ time = param.T;
 time_interest = 0:250:time(end);          % choose times to take snapshot
 markersize = 40;                          
 slice = 'axial';
-cmap = hsv;
 
 [fig, cbar] = utils.draw_scatterBrain_horizontalTimeSnapshots(time, time_interest, ...
                                     Y, loc, markersize, slice);
-colormap(cmap);
+colormap(hsv);
                      
 % set colorbar ticklabels
 set(cbar, 'YTick', [0, pi, 2*pi], 'YTickLabel', {'$0$', '$\pi$', '$2\pi$'}, ...
