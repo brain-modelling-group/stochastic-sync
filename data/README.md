@@ -3,10 +3,10 @@ Data needed to run generate_paper_figures_bioRxiv.m
 ### HCPconnectome_matrices folder
 Connectome generated for two subjects and two parcellations (Desikan-Killiany and Destrieux atlases) from the [Human Connectome Project](https://www.humanconnectome.org/) dataset.
 
-### initial conditions folder
+### initial_conditions folder
 100 pre-generated instances of (i) randomly distributed frequency distributions and (ii) node phase initial values.
 
-### network surrogates folder
+### network_surrogates folder
 Connectivity matrices of various network topologies
 
 ### networks folder
