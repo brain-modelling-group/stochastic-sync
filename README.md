@@ -3,11 +3,20 @@ Code and data for the manuscript "Stochastic synchronization of dynamics on the 
 
 # File descriptions
 
-1. sample_simulation.m: Matlab function to simulate model
-2. generate_paper_figures.m: Matlab function to generate the figures of the paper
+1. sample_simulation.m: Matlab function to simulate the model
+2. generate_paper_figures_bioRxiv.m: Matlab function to generate the figures of the preprint paper
 3. +functions: package folder containing Kuramoto model functions
 4. +utils: package folder containing utility analysis and visualization functions
 5. data: folder containing data to reproduce the results of the paper
+6. data_basic: folder containing minimum basic data needed to simulate the model
+
+# Dependencies
+
+Some important aspects you need to do before running generate_paper_figures_bioRxiv.m
+
+1. Download cbrewer from https://au.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab and add to Matlab path.
+
+2. Download RainCloudPlots from Github repository https://github.com/RainCloudPlots/RainCloudPlots and add to Matlab path.
 
 # Citation
 
