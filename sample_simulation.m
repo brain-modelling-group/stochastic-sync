@@ -16,7 +16,7 @@ param.time_start = 2000;
 
 %% define model parameters
 
-connectome = load('data/normW.mat', 'normW');       % connectome used in the paper
+connectome = load('data_basic/normW.mat', 'normW');       % connectome used in the paper
 param.A = connectome.normW;                         % defining connectivity parameter
 param.N = size(param.A, 1);                         % defining number of nodes parameter
 
@@ -65,7 +65,7 @@ fig = utils.draw_corticalOscillations(param.T, Y);
 %% demo visualization 2
 % multiple snapshots of dynamics on a selected brain view
 
-loc = load('data/513COG.mat');            % spatial locations of nodes
+loc = load('data_basic/513COG.mat');            % spatial locations of nodes
                                           % loaded loc data match connectome used in the paper
 loc = loc.COG;
 
@@ -91,7 +91,7 @@ fontsize_axis = 10;
 fontsize_label = 12;
 cmap = hsv;
 node_sizes = [80, 60, 80];
-loc = load('data/513COG.mat');            % spatial locations of nodes
+loc = load('data_basic/513COG.mat');            % spatial locations of nodes
                                           % loaded loc data match connectome used in the paper
 loc = loc.COG;              
 
