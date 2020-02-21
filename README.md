@@ -14,9 +14,9 @@ Code and data for the manuscript "Stochastic synchronization of dynamics on the 
 
 Some important aspects you need to do before running generate_paper_figures_bioRxiv.m
 
-1. Download cbrewer from https://au.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab and add to Matlab path.
+1. Download [cbrewer](https://au.mathworks.com/matlabcentral/fileexchange/34087-cbrewer-colorbrewer-schemes-for-matlab) and add to Matlab path.
 
-2. Download RainCloudPlots from Github repository https://github.com/RainCloudPlots/RainCloudPlots and add to Matlab path.
+2. Download Github repository [RainCloudPlots](https://github.com/RainCloudPlots/RainCloudPlots) and add to Matlab path.
 
 # Citation
 
