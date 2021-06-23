@@ -24,6 +24,8 @@ If you use our code in your research, please cite us as follows:
 
 J.C. Pang, L.L. Gollo, and J.A. Roberts, Stochastic synchronization of dynamics on the human connectome, bioRxiv (2020) (DOI: https://doi.org/10.1101/2020.02.09.940817)
 
+J.C. Pang, L.L. Gollo, and J.A. Roberts, Stochastic synchronization of dynamics on the human connectome, NeuroImage, 229, 11738 (2021) (DOI: https://doi.org/10.1016/j.neuroimage.2021.117738)
+
 # Further details
 
 Please contact james.pang@qimrberghofer.edu.au if you need any further details.
